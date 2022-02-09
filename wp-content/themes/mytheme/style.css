@@ -1,0 +1,24 @@
+/*
+Theme Name: myTheme
+Version: 1.0
+*/
+
+
+.main{
+    background-color: white !important;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partners> img {
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.header-meta{
+    color: black !important;
+}
