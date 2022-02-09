@@ -1,0 +1,16 @@
+/* анимация при появлении */
+
+.float_menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    padding: 0 20px;
+    transition: .5s all;
+    opacity: 0.1;
+    height: 100%;
+}
+.float_menu:hover{
+    opacity: 1;
+}
